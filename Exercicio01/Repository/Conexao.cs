@@ -12,7 +12,7 @@ namespace Repository
         public SqlCommand Conectar()
         {
             SqlConnection conexao = new SqlConnection();
-            conexao.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=T:\Documentos\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exercicio01\BD_AlunoEscola.mdf;Integrated Security=True;Connect Timeout=30";
+            conexao.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\elian\Documents\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exercicio01\BD_AlunoEscola.mdf;Integrated Security=True;Connect Timeout=30";
             conexao.Open();
 
             SqlCommand comando = new SqlCommand();
