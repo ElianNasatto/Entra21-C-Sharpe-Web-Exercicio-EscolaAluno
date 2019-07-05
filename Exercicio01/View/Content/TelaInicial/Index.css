@@ -1,0 +1,31 @@
+﻿body {
+    background-color: lightsalmon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botao {
+    background-color: tan;
+    color: black;
+    padding: 130px;
+    border: 5px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    width: 67px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: xx-large;
+    margin-top: 5%;
+    
+}
+
+.botao:hover{
+    background-color:brown;
+    color:white;
+}
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 23em;
+}
+
