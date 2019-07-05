@@ -1,0 +1,74 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Lista de Alunos</title>
+</head>
+<body>
+    <a href="/aluno/cadastrar">Cadastrar Aluno</a>
+
+    <div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                    <th>Ação</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                @for (int i = 0; i < @ViewBag.Alunos.Count; i++)
+                {
+                <tr>
+                    <td>@ViewBag.Alunos[i].Id</td>
+                    <td>@ViewBag.Alunos[i].Nome</td>
+                    <td>@ViewBag.Alunos[i].Cpf</td>
+                    <td>@ViewBag.Alunos[i].Nota_1</td>
+                    <td>@ViewBag.Alunos[i].Nota_2</td>
+                    <td>@ViewBag.Alunos[i].Nota_3</td>
+
+                    <td>
+                        <a href="/aluno/alterar?id=@ViewBag.Alunos[i].Id">Editar</a>
+                        <a href="/aluno/apagar?id=@ViewBag.Alunos[i].Id">Apagar</a>
+                    </td>
+                </tr>
+
+                }
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                    <th>Ação</th>
+                </tr>
+            </tfoot>
+        </table>
+
+
+    </div>
+
+
+
+
+
+</body>
+</html>

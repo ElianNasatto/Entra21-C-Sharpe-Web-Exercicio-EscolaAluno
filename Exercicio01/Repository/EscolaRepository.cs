@@ -16,7 +16,7 @@ namespace Repository
         public void Inserir(Escola escola)
         {
             SqlCommand comando = conexao.Conectar();
-            comando.CommandText = "INSERT INTO escolas (nome) VALUES @NOME";
+            comando.CommandText = "INSERT INTO escolas (nome) VALUES (@NOME)";
             comando.Parameters.AddWithValue("@NOME", escola.Nome);
             comando.ExecuteNonQuery();
 
@@ -57,7 +57,7 @@ namespace Repository
 
         public void Alterar(Escola escola)
         {
-            SqlCommand comando = new SqlCommand();
+            SqlCommand comando = conexao.Conectar();
             comando.CommandText = "UPDATE escolas SET nome = @NOME WHERE id = @ID";
             comando.Parameters.AddWithValue("@ID", escola.Id);
             comando.Parameters.AddWithValue("@NOME", escola.Nome);

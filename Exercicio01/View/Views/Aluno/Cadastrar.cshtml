@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cadastrar</title>
+</head>
+<body>
+    <form action="Insert" method="post">
+        <div>
+            <label for="campo-nome">Nome</label>
+            <input type="text" name="nome" id="campo-nome" />
+        </div>
+        
+        <div>
+            <label for="campo-cpf">CPF</label>
+            <input type="text" name="cpf" id="campo-cpf" />
+        </div>
+        
+        <div>
+            <label for="campo-nota1">Nota 1</label>
+            <input type="number" name="nota1" id="campo-nota1" min="0" max="10"/>
+        </div>
+        <div>
+            <label for="campo-nota2">Nota 2</label>
+            <input type="number" name="nota2" id="campo-nota2" min="0" max="10"/>
+        </div>
+        
+        <div>
+            <label for="campo-nota3">Nota 3</label>
+            <input type="number" name="nota3" id="campo-nota3" min="0" max="10" />
+        </div>
+        <button type="submit">Salvar</button>
+
+
+    </form>
+</body>
+</html>

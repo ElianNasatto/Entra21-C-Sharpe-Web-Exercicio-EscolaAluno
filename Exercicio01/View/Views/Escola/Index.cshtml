@@ -1,54 +1,52 @@
 ﻿
 @{
-    ViewBag.Title = "Index";
+    Layout = null;
 }
 
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width" />
-        <title>Lista de Escolas</title>
-        
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Lista de Escolas</title>
+</head>
+<body>
+    <a href="/escola/cadastro">Cadastrar Escola</a>
 
-    <body>
-        <a href="/escola/cadastro">Cadastrar Escola</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
 
-        <table>
-            <thead>
+        <tbody>
+            @for (int i = 0; i < @ViewBag.Escola.Count; i++)
+            {
                 <tr>
-                    <th>Id</th>
-                    <th>Nome</th>
-                    <th>Ação</th>
+                    <td>@ViewBag.Escola[i].Id</td>
+                    <td>@ViewBag.Escola[i].Nome</td>
+                    <td>
+                        <a href="/escola/editar?id=@ViewBag.Escola[i].Id">Editar</a>
+                        <a href="/escola/apagar?id=@ViewBag.Escola[i].Id">Apagar</a>
+                    </td>
+
                 </tr>
-            </thead>
 
-            <tbody>
-               @for (int i = 0; i < @ViewBag.Escolas.Count; i++)
-               {
-                   <tr>
-                       <td>@ViewBag.Escolas[i].Id</td>
-                       <td>@ViewBag.Escolas[i].Nome</td>
-                       <td>
-                           <a href="/escola/editar?id=@ViewBag.Estoques[i].Id">Editar</a>
-                           <a href="/escola/apagar?id=@ViewBag.Estoques[i].Id">Apagar</a>
-                       </td>
+            }
+        </tbody>
 
-                   </tr>
-
-               }
-            </tbody>
-
-            <tfoot>
-                <tr>
-                    <th>Id</th>
-                    <th>Nome</th>
-                    <th>Ação</th>
-                </tr>
-            </tfoot>
-        </table>
+        <tfoot>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Ação</th>
+            </tr>
+        </tfoot>
+    </table>
 
 
-    </body>
+</body>
 </html>
-

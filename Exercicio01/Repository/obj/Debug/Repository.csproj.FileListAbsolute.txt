@@ -7,3 +7,12 @@ C:\Users\elian\Documents\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exerci
 C:\Users\elian\Documents\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exercicio01\Repository\obj\Debug\Repository.csproj.CopyComplete
 C:\Users\elian\Documents\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exercicio01\Repository\obj\Debug\Repository.dll
 C:\Users\elian\Documents\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exercicio01\Repository\obj\Debug\Repository.pdb
+T:\Documentos\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exercicio01\Repository\bin\Debug\Repository.dll
+T:\Documentos\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exercicio01\Repository\bin\Debug\Repository.pdb
+T:\Documentos\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exercicio01\Repository\bin\Debug\Model.dll
+T:\Documentos\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exercicio01\Repository\bin\Debug\Model.pdb
+T:\Documentos\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exercicio01\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+T:\Documentos\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exercicio01\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+T:\Documentos\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exercicio01\Repository\obj\Debug\Repository.csproj.CopyComplete
+T:\Documentos\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exercicio01\Repository\obj\Debug\Repository.dll
+T:\Documentos\GitHub\Entra21-CSharpe-Web-Exercicio-EscolaAluno\Exercicio01\Repository\obj\Debug\Repository.pdb

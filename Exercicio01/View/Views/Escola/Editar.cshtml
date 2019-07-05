@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Editar</title>
+</head>
+<body>
+    
+    <form action="/Escola/Update" method="post">
+        <div>
+            <label for="campo-nome">Novo nome da escola</label>
+            <input type="text" name="nome" id="campo-nome" value="@ViewBag.Escola.Nome"/>
+        </div>
+        <button type="submit">Editar</button>
+        <input type="hidden" name="id" value="@ViewBag.Escola.Id" />
+    </form>
+
+</body>
+</html>
