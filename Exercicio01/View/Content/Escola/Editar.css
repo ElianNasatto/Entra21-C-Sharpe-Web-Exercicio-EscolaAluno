@@ -1,0 +1,57 @@
+﻿body {
+    background-color: lightsalmon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    background-color: burlywood;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+button {
+    background-color: #cc7d2f;
+    color: black;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 130px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 1%;
+    font-size: large;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+    button:hover {
+        background-color: red;
+        color: white;
+    }
+
+#label-informacao {
+    margin-top: 1%;
+    margin-left: 46%;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.div-campo {
+    font-size: large;
+    width: 95%;
+    margin-left: 1%;
+    margin-top: 11px;
+}
+
+.campo {
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 3px;
+}

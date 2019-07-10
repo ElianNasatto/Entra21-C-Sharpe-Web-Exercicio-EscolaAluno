@@ -9,31 +9,33 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Alterar</title>
+    <link rel="stylesheet" href="~/Content/Aluno/Editar.css" />
 </head>
 <body>
+    <label id="label-informacao" for="campo-nome">Editando</label>
     <form action="/aluno/Update" method="post">
-        <div>
+        <div class="div-campo">
             <label for="campo-nome">Nome</label>
-            <input type="text" name="nome" id="campo-nome" value="@ViewBag.Aluno.Nome" />
+            <input class="campo" type="text" name="nome" id="campo-nome" value="@ViewBag.Aluno.Nome" />
         </div>
 
-        <div>
+        <div class="div-campo">
             <label for="campo-cpf">CPF</label>
-            <input type="text" name="cpf" id="campo-cpf" value="@ViewBag.Aluno.Cpf" />
+            <input class="campo" type="text" name="cpf" id="campo-cpf" value="@ViewBag.Aluno.Cpf" />
         </div>
 
-        <div>
+        <div class="div-campo">
             <label for="campo-nota1">Nota 1</label>
-            <input type="text" name="nota1" id="campo-nota1" value="@ViewBag.Aluno.Nota_1"/>
+            <input class="campo" type="text" name="nota1" id="campo-nota1" value="@ViewBag.Aluno.Nota_1"/>
         </div>
-        <div>
+        <div class="div-campo">
             <label for="campo-nota2">Nota 2</label>
-            <input type="text" name="nota2" id="campo-nota2" value="@ViewBag.Aluno.Nota_2"/>
+            <input class="campo" type="text" name="nota2" id="campo-nota2" value="@ViewBag.Aluno.Nota_2"/>
         </div>
 
-        <div>
+        <div class="div-campo">
             <label for="campo-nota3">Nota 3</label>
-            <input type="text" name="nota3" id="campo-nota3" value="@ViewBag.Aluno.Nota_3"/>
+            <input class="campo" type="text" name="nota3" id="campo-nota3" value="@ViewBag.Aluno.Nota_3"/>
         </div>
         <button type="submit">Salvar</button>
 

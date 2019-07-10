@@ -31,3 +31,41 @@ tr:nth-child(even) {
         background-color: tomato;
         
     }
+
+a {
+    background-color: tan;
+    color: black;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 130px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: large;
+}
+
+    a:hover {
+        background-color: crimson;
+        color:white;
+    }
+
+#botao-cadastrar {
+    float:right;
+    margin-right: 29px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: tan;
+    color: black;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 130px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: large;
+}
+    #botao-cadastrar:hover {
+        background-color: tomato;
+    }

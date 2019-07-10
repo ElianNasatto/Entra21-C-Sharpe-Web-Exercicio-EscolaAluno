@@ -88,6 +88,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Aluno\Casatrar.css" />
+    <Content Include="Content\Aluno\Editar.css" />
+    <Content Include="Content\Aluno\Index.css" />
+    <Content Include="Content\Escola\Cadastrar.css" />
+    <Content Include="Content\Escola\Editar.css" />
     <Content Include="Content\Escola\Index.css" />
     <Content Include="Content\TelaInicial\Index.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
