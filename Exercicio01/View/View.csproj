@@ -97,6 +97,8 @@
     <Content Include="Content\TelaInicial\Index.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Resources\escola.png" />
+    <Content Include="Resources\escolaIcone.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

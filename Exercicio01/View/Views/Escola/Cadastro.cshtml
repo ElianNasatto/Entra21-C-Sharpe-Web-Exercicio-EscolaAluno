@@ -9,18 +9,21 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Cadastrar</title>
-    <link  rel="stylesheet" href="~/Content/Escola/Cadastrar.css" />
+    <link rel="stylesheet" href="~/Content/Escola/Cadastrar.css" />
 </head>
 <body>
-    <a href="/escola/index">Lista de escolas</a>
-    <div>
-        <label id="label-informacao" for="campo-nome">Cadastrar Escola</label>
-    </div>
+    <div class="div-topo">
 
+        <a href="/escola/index">Lista de escolas</a>
+        <div>
+            <label id="label-informacao" for="campo-nome">Cadastrar Escola</label>
+        </div>
+
+    </div>
     <form action="cadastrar" method="post">
 
         <div class="div-campo">
-            <label  for="campo-nome">Nome da Escola</label>
+            <label for="campo-nome">Nome da Escola</label>
             <input class="campo" type="text" name="nome" id="campo-nome" />
         </div>
 

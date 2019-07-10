@@ -1,6 +1,9 @@
 ﻿body {
     background-color: lightsalmon;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
 }
  table{
      width: 95%;
@@ -13,6 +16,7 @@
      border: 2px solid black;
      background-color: white;
      color: black;
+     
  }
  td{
      
@@ -69,3 +73,28 @@ a {
     #botao-cadastrar:hover {
         background-color: tomato;
     }
+
+.div-Topo {
+    background-color: bisque;
+    display: flow-root;
+    border-bottom: 3px solid black;
+}
+img {
+    margin-left: 46%;
+    width: 75px;
+   
+}
+#div1 {
+    float: left;
+}
+#div2 {
+    float: right;
+    margin-top:19px;
+}
+#div3 {
+    margin-left: 38%;
+    margin-top: 2%;
+    float: left;
+    font-size: xx-large;
+    font-weight:bold;
+}
