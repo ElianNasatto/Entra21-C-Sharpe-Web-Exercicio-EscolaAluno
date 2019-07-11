@@ -1,6 +1,9 @@
 ﻿body {
     background-color: lightsalmon;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
 }
 
 a {
@@ -16,6 +19,7 @@ a {
     cursor: pointer;
     text-align: center;
     margin-bottom: 2%;
+    float: right;
 }
 
     a:hover {
@@ -73,7 +77,6 @@ form {
 }
 
 #label-informacao {
-    margin-left: 40%;
     font-size: xx-large;
     font-weight: bold;
 }
@@ -82,4 +85,27 @@ form {
     background-color: bisque;
     display: flow-root;
     border-bottom: 3px solid black;
+}
+
+img {
+    margin-left: 46%;
+    width: 75px;
+}
+
+#div1 {
+    float: left;
+}
+
+#div2 {
+    margin-left: 30%;
+    margin-top: 2%;
+    float: left;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#div3 {
+    float: right;
+    margin-top: 19px;
+    margin-right: 52px;
 }

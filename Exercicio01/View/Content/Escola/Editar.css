@@ -1,6 +1,9 @@
 ﻿body {
     background-color: lightsalmon;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 form {
@@ -54,4 +57,23 @@ button {
     padding-top: 6px;
     padding-bottom: 6px;
     margin-top: 3px;
+}
+
+img {
+    margin-left: 46%;
+    width: 75px;
+}
+
+#div1 {
+    float: left;
+}
+
+#div2 {
+    margin-right: 18%;
+    margin-top: 19px;
+}
+#div-Topo {
+    background-color: bisque;
+    display: flow-root;
+    border-bottom: 3px solid black;
 }

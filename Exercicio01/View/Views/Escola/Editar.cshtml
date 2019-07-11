@@ -10,13 +10,25 @@
     <meta name="viewport" content="width=device-width" />
     <title>Editar</title>
     <link rel="stylesheet" href="~/Content/Escola/Editar.css" />
+    <link rel="icon" href="~/Resources/escolaIcone.png" />
 </head>
 <body>
-    <label id="label-informacao" for="campo-nome">Editando</label>
+    <div id="div-Topo">
+
+        <div id="div1">
+            <img src="~/Resources/escola.png" />
+        </div>
+
+        <div id="div2">
+            <label id="label-informacao" for="campo-nome">Editando</label>
+        </div>
+    </div>
+
+
     <form action="/Escola/Update" method="post">
         <div class="div-campo">
             <label for="campo-nome">Novo nome da escola</label>
-            <input class="campo" type="text" name="nome" id="campo-nome" value="@ViewBag.Escola.Nome"/>
+            <input class="campo" type="text" name="nome" id="campo-nome" value="@ViewBag.Escola.Nome" />
         </div>
         <button type="submit">Editar</button>
         <input type="hidden" name="id" value="@ViewBag.Escola.Id" />
