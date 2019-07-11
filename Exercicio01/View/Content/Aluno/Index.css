@@ -1,6 +1,9 @@
 ﻿body {
     background-color: lightsalmon;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
 }
 
 table {
@@ -70,3 +73,5 @@ a {
     #botao-cadastrar:hover {
         background-color: tomato;
     }
+
+

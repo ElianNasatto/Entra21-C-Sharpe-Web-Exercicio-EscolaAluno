@@ -99,6 +99,8 @@
     <Content Include="Global.asax" />
     <Content Include="Resources\escola.png" />
     <Content Include="Resources\escolaIcone.png" />
+    <Content Include="Resources\estudante.png" />
+    <Content Include="Resources\estudanteIcone.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

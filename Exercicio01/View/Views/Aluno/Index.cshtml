@@ -10,29 +10,44 @@
     <meta name="viewport" content="width=device-width" />
     <title>Lista de Alunos</title>
     <link rel="stylesheet" href="~/Content/Aluno/Index.css" />
+    <link rel="icon" href="~/Resources/estudanteIcone.png" />
 </head>
 <body>
-    <a id="botao-cadastrar" href="/aluno/cadastrar">Cadastrar Aluno</a>
 
-    <div>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Nome</th>
-                    <th>CPF</th>
-                    <th>Nota 1</th>
-                    <th>Nota 2</th>
-                    <th>Nota 3</th>
-                    <th>Ação</th>
-                </tr>
+    <div class="div-topo">
+        <div id="div1">
+            <img src="~/Resources/estudante.png"
+        </div>
+        <div id="div2">
+            <label id="label-informacao" for="campo-nome">Lista de Alunos</label>
+        </div>
+        <div id="div3">
+            <a id="botao-cadastrar" href="/aluno/cadastrar">Cadastrar Aluno</a>
+        </div>
+    </div>
 
-            </thead>
 
-            <tbody>
-                @for (int i = 0; i < @ViewBag.Alunos.Count; i++)
-                {
+
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Nota 3</th>
+                <th>Ação</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            @for (int i = 0; i < @ViewBag.Alunos.Count; i++)
+            {
                 <tr>
                     <td>@ViewBag.Alunos[i].Id</td>
                     <td>@ViewBag.Alunos[i].Nome</td>
@@ -47,25 +62,25 @@
                     </td>
                 </tr>
 
-                }
+            }
 
-            </tbody>
+        </tbody>
 
-            <tfoot>
-                <tr>
-                    <th>ID</th>
-                    <th>Nome</th>
-                    <th>CPF</th>
-                    <th>Nota 1</th>
-                    <th>Nota 2</th>
-                    <th>Nota 3</th>
-                    <th>Ação</th>
-                </tr>
-            </tfoot>
-        </table>
+        <tfoot>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Nota 3</th>
+                <th>Ação</th>
+            </tr>
+        </tfoot>
+    </table>
 
 
-    </div>
+
 
 
 
